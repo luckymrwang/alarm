@@ -7,7 +7,7 @@ import (
 
 	"github.com/toolkits/smtp"
 
-	"github.com/urlooker/alarm/g"
+	"urlooker/alarm/g"
 )
 
 func ConsumeMail() {

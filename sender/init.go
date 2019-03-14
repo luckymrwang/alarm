@@ -1,7 +1,7 @@
 package sender
 
 import (
-	"github.com/urlooker/alarm/g"
+	"urlooker/alarm/g"
 )
 
 var (

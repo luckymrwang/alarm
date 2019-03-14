@@ -6,7 +6,7 @@ import (
 	"net/rpc"
 	"net/rpc/jsonrpc"
 
-	"github.com/urlooker/alarm/g"
+	"urlooker/alarm/g"
 )
 
 func Start() {

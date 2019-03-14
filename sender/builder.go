@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/urlooker/alarm/cache"
-	"github.com/urlooker/web/model"
+	"urlooker/alarm/cache"
+	"urlooker/web/model"
 )
 
 func BuildMail(event *model.Event) string {

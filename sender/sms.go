@@ -7,7 +7,7 @@ import (
 
 	"github.com/toolkits/net/httplib"
 
-	"github.com/urlooker/alarm/g"
+	"urlooker/alarm/g"
 )
 
 func ConsumeSms() {

@@ -3,8 +3,8 @@ package receiver
 import (
 	"time"
 
-	"github.com/urlooker/alarm/judge"
-	"github.com/urlooker/web/model"
+	"urlooker/alarm/judge"
+	"urlooker/web/model"
 )
 
 type Alarm int

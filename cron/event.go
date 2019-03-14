@@ -7,13 +7,12 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 
-	"github.com/urlooker/web/api"
-	"github.com/urlooker/web/model"
-
-	"github.com/urlooker/alarm/backend"
-	"github.com/urlooker/alarm/cache"
-	"github.com/urlooker/alarm/g"
-	"github.com/urlooker/alarm/sender"
+	"urlooker/alarm/backend"
+	"urlooker/alarm/cache"
+	"urlooker/alarm/g"
+	"urlooker/alarm/sender"
+	"urlooker/web/api"
+	"urlooker/web/model"
 )
 
 func ReadEvent() {

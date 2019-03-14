@@ -6,7 +6,7 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 
-	"github.com/urlooker/alarm/g"
+	"urlooker/alarm/g"
 )
 
 func PopAllSms(queue string) []*g.Sms {

@@ -4,11 +4,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/urlooker/alarm/backend"
-	"github.com/urlooker/alarm/cache"
-	"github.com/urlooker/alarm/g"
-	"github.com/urlooker/web/api"
-	"github.com/urlooker/web/model"
+	"urlooker/alarm/backend"
+	"urlooker/alarm/cache"
+	"urlooker/alarm/g"
+	"urlooker/web/api"
+	"urlooker/web/model"
 )
 
 func SyncStrategies() {

@@ -5,11 +5,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/urlooker/web/model"
-
-	"github.com/urlooker/alarm/backend"
-	"github.com/urlooker/alarm/cache"
-	"github.com/urlooker/alarm/g"
+	"urlooker/alarm/backend"
+	"urlooker/alarm/cache"
+	"urlooker/alarm/g"
+	"urlooker/web/model"
 )
 
 func Judge(L *SafeLinkedList, item *model.ItemStatus, now int64) {
